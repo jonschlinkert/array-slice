@@ -5,12 +5,12 @@
  * Licensed under the MIT License
  */
 
-var expect = require('chai').expect;
-var arraySlice = require('../');
+var should = require('should');
+var slice = require('./');
 
 describe('array-slice:', function () {
   it('should return the specified range.', function () {
     var arr = ['a','b','d','e','f','g','h','i','j'];
-    expect(arraySlice(arr, 3,6)).to.eql(['e', 'f', 'g']);
+   slice(arr, 3,6).should.eql(['e', 'f', 'g']);
   });
 });

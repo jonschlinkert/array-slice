@@ -1,7 +1,7 @@
 {
   "name": "array-slice",
-  "description": "Lo-dash's array-slice method. Slices `array` from the `start` index up to, but not including, the `end` index.",
-  "version": "0.1.1",
+  "description": "Array-slice method. Slices `array` from the `start` index up to, but not including, the `end` index.",
+  "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/array-slice",
   "author": {
     "name": "Jon Schlinkert",
@@ -32,9 +32,8 @@
     "test": "mocha -R spec"
   },
   "devDependencies": {
-    "chai": "~1.9.1",
     "mocha": "*",
-    "verb": "~0.2.6",
-    "verb-tag-jscomments": "^0.1.4"
+    "verb": "^0.2.15",
+    "verb-tag-jscomments": "^0.2.2"
   }
 }

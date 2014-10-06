@@ -7,26 +7,8 @@
 
 'use strict';
 
-/**
- * **Example**
- *
- * ```js
- * var slice = require('array-slice');
- * var arr = ['a', 'b', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
- *
- * slice(arr, 3, 6);
- * //=> ['e', 'f', 'g']
- * ```
- *
- * @param {Array} `array` The array to slice.
- * @param {number} `start=0` The start index.
- * @param {number} `end=array.length` The end index.
- * @returns {Array} Returns the slice of `array`.
- * @api public
- */
-
 module.exports = function slice(arr, start, end) {
-  var len = arr.length;
+  var len = arr.length >>> 0;
   var range = [];
 
   start = idx(arr, start);
@@ -40,7 +22,7 @@ module.exports = function slice(arr, start, end) {
 
 
 function idx(arr, pos, end) {
-  var len = arr.length;
+  var len = arr.length >>> 0;
 
   if (pos == null) {
     pos = end || 0;

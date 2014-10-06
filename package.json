@@ -1,7 +1,7 @@
 {
   "name": "array-slice",
   "description": "Array-slice method. Slices `array` from the `start` index up to, but not including, the `end` index.",
-  "version": "0.2.0",
+  "version": "0.2.2",
   "homepage": "https://github.com/jonschlinkert/array-slice",
   "author": {
     "name": "Jon Schlinkert",
@@ -22,7 +22,11 @@
   ],
   "keywords": [
     "array",
-    "slice"
+    "javascript",
+    "js",
+    "slice",
+    "util",
+    "utils"
   ],
   "main": "index.js",
   "engines": {
@@ -33,7 +37,6 @@
   },
   "devDependencies": {
     "mocha": "*",
-    "verb": "^0.2.15",
-    "verb-tag-jscomments": "^0.2.2"
+    "verb": "^0.2.15"
   }
 }

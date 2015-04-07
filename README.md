@@ -20,10 +20,28 @@ slice(arr, 3, 6);
 //=> ['e', 'f', 'g']
 ```
 
+## Useful array utils
+ * [arr-diff](https://github.com/jonschlinkert/arr-diff): Returns an array with only the unique values from the first array, by excluding all values from additional arrays using strict equality for comparisons.
+ * [arr-filter](https://github.com/jonschlinkert/arr-filter): Faster alternative to javascript's native filter method.
+ * [arr-flatten](https://github.com/jonschlinkert/arr-flatten): Recursively flatten an array or arrays. This is the fastest implementation of array flatten.
+ * [arr-union](https://github.com/jonschlinkert/arr-union): Combines a list of arrays, returning a single array with unique values, using strict equality for comparisons.
+ * [array-unique](https://github.com/jonschlinkert/array-unique): Return an array free of duplicate values. Fastest ES5 implementation.
+ * [array-intersection](https://github.com/jonschlinkert/array-intersection): Return an array with the unique values present in _all_ given arrays using strict equality for comparisons.
+
+## Running tests
+Install dev dependencies:
+
+```bash
+npm i -d && npm test
+```
+
+## Contributing
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/jonschlinkert/array-slice/issues)
+
 ## Author
 
 **Jon Schlinkert**
- 
+
 + [github/jonschlinkert](https://github.com/jonschlinkert)
 + [twitter/jonschlinkert](http://twitter.com/jonschlinkert) 
 

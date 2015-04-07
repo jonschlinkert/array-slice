@@ -20,7 +20,8 @@
     "index.js"
   ],
   "devDependencies": {
-    "mocha": "*"
+    "mocha": "*",
+    "should": "^5.2.0"
   },
   "keywords": [
     "array",
@@ -29,21 +30,5 @@
     "slice",
     "util",
     "utils"
-  ],
-  "author": {
-    "name": "Jon Schlinkert",
-    "homepage": "https://github.com/jonschlinkert"
-  },
-  "bugs": {
-    "url": "https://github.com/jonschlinkert/array-slice/issues"
-  },
-  "files": [
-    "index.js"
-  ],
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  }
+  ]
 }

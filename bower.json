@@ -1,10 +1,49 @@
 {
   "name": "array-slice",
-  "version": "0.2.0",
+  "description": "Array-slice method. Slices `array` from the `start` index up to, but not including, the `end` index.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/array-slice.git"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/array-slice/blob/master/LICENSE"
+  },
+  "homepage": "https://github.com/jonschlinkert/array-slice",
+  "authors": [
+    {
+      "name": "Jon Schlinkert",
+      "homepage": "https://github.com/jonschlinkert"
+    }
+  ],
   "main": [
     "index.js"
   ],
-  "ignore": [
-    "test"
-  ]
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "array",
+    "javascript",
+    "js",
+    "slice",
+    "util",
+    "utils"
+  ],
+  "author": {
+    "name": "Jon Schlinkert",
+    "homepage": "https://github.com/jonschlinkert"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/array-slice/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
 }

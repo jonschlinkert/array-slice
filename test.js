@@ -1,3 +1,5 @@
+'use strict';
+
 /*!
  * array-slice <https://github.com/jonschlinkert/array-slice>
  *

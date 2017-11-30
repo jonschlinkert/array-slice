@@ -1,7 +1,7 @@
 /*!
  * array-slice <https://github.com/jonschlinkert/array-slice>
  *
- * Copyright (c) 2014-2015, 2017, Jon Schlinkert.
+ * Copyright (c) 2014-2017, Jon Schlinkert.
  * Released under the MIT License.
  */
 

@@ -1,7 +1,7 @@
 {
   "name": "array-slice",
   "description": "Array-slice method. Slices `array` from the `start` index up to, but not including, the `end` index.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/jonschlinkert/array-slice",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/array-slice",
